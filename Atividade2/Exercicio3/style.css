@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+main section:first-child article {
+    background: #eaeaea;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main section:last-child article {
+    background: #f5f5f5;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+aside {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+aside li:hover {
+    color: #0077cc;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*gatinhos?*/
+
+.pagina-gatinhos {
+    background-color: #fff0f5;
+    font-family: "Comic Sans MS", cursive;
+    text-align: center;
+}
+
+.pagina-gatinhos header {
+    background-color: #ffb6c1;
+    color: #5a2a2a;
+    padding: 30px;
+}
+
+.pagina-gatinhos main {
+    display: block;
+    padding: 20px;
+}
+
+.pagina-gatinhos h2 {
+    font-size: 30px;
+    color: #ff69b4;
+}
+
+.pagina-gatinhos h3 {
+    font-size: 26px;
+    color: #ff85c1;
+}
+
+.pagina-gatinhos h4 {
+    font-size: 40px;
+    letter-spacing: 8px;
+    color: #ff1493;
+}
+
+.galeria {
+    margin-top: 20px;
+}
+
+.galeria img {
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
