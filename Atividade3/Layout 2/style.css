@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border: 2px solid #90caf9;
+}
+
+.logo {
+    border: 2px solid #64b5f6;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    border: 2px solid #42a5f5;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+    border: 2px solid #2196f3;
+    padding: 10px;
+}
+
+.principal {
+    display: flex;
+    height: calc(100vh - 80px);
+    border: 2px solid #1e88e5;
+}
+
+.conteudo-esquerdo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    border: 2px solid #1976d2;
+}
+
+.botoes {
+    display: flex;
+    gap: 15px;
+    border: 2px solid #1565c0;
+    padding: 10px;
+}
+
+.conteudo-direito {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0d47a1;
+}
+
+.area-imagem {
+    width: 60%;
+    height: 70%;
+    border: 2px solid #e3f2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

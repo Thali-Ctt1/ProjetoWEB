@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #fdd835;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.logo,
+.busca,
+.menu-topo,
+.acoes {
+    border: 1px solid #fff9c4;
+    padding: 10px;
+}
+
+.busca {
+    width: 250px;
+    text-align: center;
+}
+
+.menu-topo {
+    display: flex;
+    gap: 15px;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #fff59d;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    border: 2px solid #fff176;
+    padding: 20px;
+}
+
+.card {
+    height: 180px;
+    border: 2px solid #ffee58;
+    background-color: #f9a825;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
